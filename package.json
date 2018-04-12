@@ -1,0 +1,9 @@
+{
+  "name": "laminar",
+  "version": "0.0.0",
+  "description": "Manage data flow between functions, in series and parallel",
+  "main": "index.js",
+  "repository": "git@github.com:mikrostew/laminar.git",
+  "author": "Michael Stewart <mikrostew@gmail.com>",
+  "license": "MIT"
+}
