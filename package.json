@@ -2,8 +2,18 @@
   "name": "laminar",
   "version": "0.0.0",
   "description": "Manage data flow between functions, in series and parallel",
+  "scripts": {
+    "test": "npm run lint && mocha test/",
+    "test:watch": "mocha --watch test/",
+    "lint": "eslint ."
+  },
   "main": "index.js",
   "repository": "git@github.com:mikrostew/laminar.git",
   "author": "Michael Stewart <mikrostew@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.0"
+  }
 }
